@@ -5,7 +5,7 @@
 # It is a fork of https://gist.github.com/robwierzbowski/5430952/.  Some of Rob's lines just didn't work for me, and to fix them I needed to make it more verbose so that a mere electrical engineer could understand it.
 
 # This script gets a username from .gitconfig.  If it indicates that your default username is an empty string, you can set it with
-# git config --add github.user YOUR_GIT_USERNAME
+# git config --global --add github.user YOUR_GIT_USERNAME
 
 # Gather constant vars
 function gitcreate() {
